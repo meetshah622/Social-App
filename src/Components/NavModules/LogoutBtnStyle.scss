@@ -1,0 +1,29 @@
+@import '../../Config/variablestyle.scss';
+
+.logoutIconStyle {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid $white-rgba;
+    svg {
+        path {
+
+            fill: $white;
+        }
+    }
+}
+.logoutIconStyle:hover{
+    background: $white;
+
+    svg {
+        path {
+            fill: $blue-69;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@import '../../../Config/variablestyle.scss';
+
+.premiumCardStyleWrapper {
+    width: 315px;
+    height: 174px;
+    border-radius: 12px;
+    background: $sunsetOrange;
+    padding: 20px;
+    position: relative;
+margin-bottom: 60px;
+    .blackOval {
+        position: absolute;
+        top: 21px;
+        left: 178px;
+    }
+
+    .greenOval {
+        position: absolute;
+        top: 37px;
+        left: 0;
+    }
+
+    .redOval {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .cardContent {
+        position: absolute;
+        z-index: 2;
+        .title {
+            color: $white;
+            font-family: system-ui;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 5px;
+            /* 136.364% */
+        }
+
+        .description {
+            width: 265px;
+            color: $white;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            margin-bottom: 25px;
+            word-spacing: 6px;
+            /* 157.143% */
+        }
+
+        .moreInfoBtn {
+            width: 97px;
+            height: 30px;
+            border-radius: 4px;
+            background: $black-rgba;
+            color: $white;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            border: none;
+            /* 142.857% */
+            svg{
+                margin-left: 2.71px;
+            }
+        }
+    }
+}

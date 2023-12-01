@@ -1,0 +1,26 @@
+@import '../../Config/variablestyle.scss';
+
+.profileListWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 45px;
+    .notificationWrapper {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        background: $light-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .notificationCount{
+            color:$white;
+            text-align: center;
+            font-size: 22.32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 14.737px; /* 66.025% */
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}

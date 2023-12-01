@@ -1,0 +1,15 @@
+@import '../../Config/variablestyle.scss';
+
+.sidebarWrapper {
+    width: 165px;
+    height: 1024px;
+    flex-shrink: 0;
+    background: $blue-69;
+    padding: 42px 58px 60px 59px;
+
+    .logoIcon {
+        margin-bottom: 98px;
+        cursor: pointer;
+
+    }
+}

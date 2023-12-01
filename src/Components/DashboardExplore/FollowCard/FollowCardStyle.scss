@@ -1,0 +1,13 @@
+@import '../../../Config/variablestyle.scss';
+
+.followCardWrapper {
+    .title {
+        color: $white;
+        font-family:  sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 136.364% */
+    }
+}

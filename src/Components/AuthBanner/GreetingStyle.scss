@@ -1,0 +1,19 @@
+@import '../../Config/variablestyle.scss';
+.greeting{
+ .title{
+    color: $black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px; /* 136.364% */
+    margin-top: 49px;
+ }
+ .hint{
+    color:$grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    margin-top: 10px;
+ }
+}
