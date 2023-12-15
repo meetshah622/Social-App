@@ -1,12 +1,11 @@
 Clone the project
+https://github.com/meetshah622/Social-App.git
 
-  https://github.com/meetshah622/Social-App.git
 Go to the project directory
+cd Social-App
 
-  cd Social-App
 Install dependencies
+npm install
 
-  npm install
 Start the server
-
-  npm run dev
+npm run dev
