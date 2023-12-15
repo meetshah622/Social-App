@@ -1,10 +1,11 @@
 import React from "react";
-import './GreetingStyle.scss'
-function GreetingsBlock() {
+import "./GreetingStyle.scss";
+import { AUTH_TYPE } from "../../Config";
+function GreetingsBlock({ type, title, hint }) {
   return (
     <div className="greeting">
-      <h2 className="title">Welcome Back!</h2>
-      <p className="hint">Sign in to continue</p>
+      <h2 className="title">{title}</h2>
+      <p className="hint">{hint}</p>
     </div>
   );
 }

@@ -1,0 +1,123 @@
+@import '../../../Config/variablestyle.scss';
+
+.otherUsersPostWrapper {
+    width: 100%;
+    // height: 553px;
+    margin-top: 30px;
+    border-radius: 12px;
+    background: $white;
+    padding: 30px;
+
+    .ant-space {
+        height: 100%;
+        width: 100%;
+
+        .ant-space-item {
+            height: 100%;
+            width: 100%;
+
+            .post-content-action {
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+
+                .postContent {
+                    width: 100%;
+
+                    .userInfo {
+                        padding-left: 10px;
+
+                        .username {
+                            color: $black;
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 20px;
+                        }
+
+                        .timestamp {
+                            color: $grey;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 20px;
+                        }
+                    }
+                }
+
+                .list-item-avatar {
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 12px;
+                }
+
+                .action-item-avatar {
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 12px;
+                    background: $offWhite;
+                    border: none;
+                    padding: 0;
+
+                    span {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: auto;
+                    }
+
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        flex-shrink: 0;
+                    }
+                }
+
+                .postActionWrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                }
+
+                .post-text {
+                    color: $grey;
+                    font-feature-settings: 'clig'off, 'liga'off;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    margin-top: 29px;
+                }
+
+                .post-graphics {
+                    margin-top: 21px;
+                    width: 100%;
+                    // height: 210px;
+
+                 
+                    .single-post {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: unset;
+                            border-radius: 12px;
+                        }
+                    }
+
+                    .multi-post {
+                        width: 100%;
+                        padding-left: 15px;
+                        display: grid;
+                        grid-gap: 12px;
+                        img {
+                            width: 100%;
+                            object-fit: unset;
+                            border-radius: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

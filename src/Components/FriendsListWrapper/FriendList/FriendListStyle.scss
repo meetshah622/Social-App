@@ -1,0 +1,57 @@
+@import '../../../Config/variablestyle.scss';
+
+.friendListActionWrapper{
+    padding: 40px ;
+    height: 100%;
+    min-width: 100%;
+    .titleWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        .title {
+            color: $black;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            font-family: sans-serif;
+            /* 136.364% */
+        }
+
+        .moreInfoBtn {
+            width: 87px;
+            height: 30px;
+            border-radius: 4px;
+            background: $black-rgba;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            border: none;
+            color: $black;
+            background: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: none;
+            /* 142.857% */
+            svg {
+                path {
+
+                    fill: $black;
+                }
+
+                margin-left: 2.71px;
+            }
+        }
+    }
+    .friendCardListWrapper{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
