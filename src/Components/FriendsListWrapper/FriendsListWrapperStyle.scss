@@ -1,0 +1,16 @@
+@import '../../Config/variablestyle.scss';
+
+.friendsListWrapper {
+    display: flex;
+background-color: $offWhite;
+    .ant-row {
+        min-width: 100%;
+    }
+
+    .exploreLayoutStyle {
+        overflow-y: unset;
+        .followCardWrapper {
+            margin-bottom: 0;
+        }
+    }
+}

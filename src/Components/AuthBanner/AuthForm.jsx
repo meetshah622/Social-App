@@ -5,8 +5,14 @@ import AuthBtn from "./AuthBtn";
 import FaceBookIcon from "../../Icons/FaceBookIcon";
 import AppleIcon from "../../Icons/AppleIcon";
 import GoogleIcon from "../../Icons/GoogleIcon";
-function AuthForm() {
-  const onFinish = () => {};
+import { AUTH_TYPE } from "../../Config";
+import { useNavigate } from "react-router-dom";
+import { routesList } from "../../Config/routers";
+function AuthForm({ type }) {
+  const navigate = useNavigate()
+  const onFinish = () => {
+    navigate(routesList?.home?.pathname)
+  };
   const onFinishFailed = () => {};
   return (
     <div className="auth-form">
@@ -21,6 +27,17 @@ function AuthForm() {
         autoComplete="off"
         layout="vertical"
       >
+        {type === AUTH_TYPE?.SIGNUP && (
+          <Form.Item
+            className="auth-form-title"
+            label="Name"
+            name="name"
+            rules={[{ required: true, message: "Please input your name!" }]}
+          >
+            <Input placeholder="Anne Carry" />
+          </Form.Item>
+        )}
+
         <Form.Item
           className="auth-form-title"
           label="Email"
@@ -39,12 +56,15 @@ function AuthForm() {
           <Input.Password />
         </Form.Item>
 
-        <p className="forgotPassword">Forgot Password?</p>
+        {type === AUTH_TYPE?.LOGIN && (
+          <p className="forgotPassword">Forgot Password?</p>
+        )}
 
         <AuthBtn
-          btnName={"Login"}
+          btnName={type===AUTH_TYPE?.SIGNUP ? "Create an account" : "Login"}
           btnType="black"
           classname="defaultAuthBtn"
+          actionType="submit"
         />
         <p className="otherAuthPlatform">Or connect with socials</p>
         <AuthBtn

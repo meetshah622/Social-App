@@ -1,0 +1,19 @@
+@import '../../../../Config/variablestyle.scss';
+
+.singleStoryBg {
+    width: 65px;
+    height: 65px;
+    border-radius: 19px;
+    border: 2px solid $blue-69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+
+    .item-avatar {
+        width: 54.167px;
+        height: 54.167px;
+        border-radius: 14px;
+    }
+}

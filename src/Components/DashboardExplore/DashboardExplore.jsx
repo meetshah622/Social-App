@@ -5,8 +5,8 @@ import ExploreLayout from "./ExploreLayout";
 function DashboardExplore() {
   return (
     <div className="dashboardExploreStyle">
-      <LeftIndicator />
-      <ExploreLayout/>
+      {/* <LeftIndicator /> */}
+      <ExploreLayout isProfileView isFollowCard isFriendCard isPremiumCard/>
     </div>
   );
 }

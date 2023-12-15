@@ -1,0 +1,61 @@
+@import '../../../Config/variablestyle.scss';
+
+.userListStyle {
+
+    .list-items {
+        margin-bottom: 40px;
+
+        .list-item {
+            border: none;
+            margin-bottom: 10px;
+
+            .list-item-avatar {
+                width: 38px;
+                height: 38px;
+                border-radius: 12px;
+            }
+
+            .ant-list-item-meta-avatar {
+                margin: auto;
+                margin-right: 10px;
+            }
+
+            .ant-list-item-meta-content {
+                margin: auto;
+            }
+
+            .list-item-title {
+                color: $white;
+                font-family: sans-serif;
+            }
+
+            .list-item-desc {
+                color: $white;
+            }
+
+            .addUserIconWrapper {
+                width: 28px;
+                height: 28px;
+                border-radius: 8px;
+                background: $blue-69;
+                border: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .alreadyAddedIconWrapper {
+                width: 28px;
+                height: 28px;
+                border-radius: 8px;
+                background: $grey-rgba;
+                border: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
