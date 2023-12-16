@@ -5,7 +5,7 @@ import FollowAvatar1 from "../../../../assets/Images/Follow-Avatar-1.png";
 import FollowAvatar2 from "../../../../assets/Images/Follow-Avatar-1.png";
 import FollowAvatar3 from "../../../../assets/Images/Follow-Avatar-3.png";
 import FriendsAvatar1 from "../../../../assets/Images/friends-Avatar-1.png";
-import FriendsAvatar2 from "../../../../assets/Images/friends-Avatar-1.png";
+import FriendsAvatar2 from "../../../../assets/Images/friends-Avatar-img-2.png";
 import FriendsAvatar3 from "../../../../assets/Images/friends-Avatar-3.png";
 function StoriesWrapper() {
   return (
