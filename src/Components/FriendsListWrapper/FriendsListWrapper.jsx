@@ -4,7 +4,7 @@ import ExploreLayout from "../DashboardExplore/ExploreLayout";
 import "./FriendsListWrapperStyle.scss";
 import { Row, Col } from "antd";
 import FriendsAvatar1 from "../../assets/Images/friends-Avatar-1.png";
-import FriendsAvatar2 from "../../assets/Images/friends-Avatar-2.png";
+import FriendsAvatar2 from "../../assets/Images/friends-avatar-2.png";
 import FriendsAvatar3 from "../../assets/Images/friends-Avatar-3.png";
 import FriendList from "./FriendList/FriendList";
 export default function FriendsListWrapper() {
