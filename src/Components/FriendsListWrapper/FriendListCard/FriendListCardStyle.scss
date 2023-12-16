@@ -1,0 +1,74 @@
+@import '../../../Config//variablestyle.scss';
+
+.friendListCardStyle {
+    width: 233px;
+    height: 230px;
+    border-radius: 12px;
+    background: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .friend-avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        img {
+            width: 58px;
+            height: 58px;
+        }
+    }
+
+    .title {
+        color: $black;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        justify-content: center;
+
+        /* 137.5% */
+    }
+
+    .uid {
+        color: $grey;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        justify-content: center;
+        /* 166.667% */
+    }
+
+    .friendBtn {
+        margin-top: 13px;
+
+        .ant-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 84px;
+            height: 30px;
+            border-radius: 4px;
+            background: $green;
+            color: $white;
+            padding: 5px 9.82px 5px 9px;
+
+        }
+
+        .ant-btn:hover {
+            background: $white;
+            color: $green;
+            border: 1px solid $green;
+
+            svg {
+                path {
+                    fill: $green;
+                }
+            }
+        }
+    }
+}

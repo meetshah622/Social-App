@@ -3,12 +3,12 @@ import "./AuthSectionStyle.scss";
 import Logo from "../Logo/Logo";
 import GreetingsBlock from "./GreetingsBlock";
 import AuthForm from "./AuthForm";
-function AuthSection() {
+function AuthSection({ type, greetingTitle, greetingHint }) {
   return (
     <div className="auth-section-wrapper">
       <Logo />
-      <GreetingsBlock />
-      <AuthForm/>
+      <GreetingsBlock type={type} title={greetingTitle} hint={greetingHint} />
+      <AuthForm type={type} />
     </div>
   );
 }

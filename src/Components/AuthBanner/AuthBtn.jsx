@@ -4,10 +4,11 @@ function AuthBtn({
     icon,
     btnName,
     btnType='primary',
-    classname
+    classname,
+    actionType
 }) {
   return (
-    <div><Button className={classname} type={btnType}>{icon} {btnName}</Button></div>
+    <div><Button htmlType={actionType} className={classname} type={btnType}>{icon} {btnName}</Button></div>
   )
 }
 

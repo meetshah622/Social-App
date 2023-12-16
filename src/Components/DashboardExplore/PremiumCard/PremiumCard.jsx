@@ -16,9 +16,11 @@ function PremiumCard() {
         <div className="description">
           Try premium membership and enjoy a full experience of our community.
         </div>
-        <Button className="moreInfoBtn">
-          See more <RightArrowIcon />
-        </Button>
+        <div className="seemoreBtnWrapper">
+          <Button className="moreInfoBtn">
+            See more <RightArrowIcon />
+          </Button>
+        </div>
       </div>
     </div>
   );

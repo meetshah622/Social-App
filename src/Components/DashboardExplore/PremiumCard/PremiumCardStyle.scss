@@ -7,7 +7,8 @@
     background: $sunsetOrange;
     padding: 20px;
     position: relative;
-margin-bottom: 60px;
+    margin-bottom: 60px;
+
     .blackOval {
         position: absolute;
         top: 21px;
@@ -29,6 +30,7 @@ margin-bottom: 60px;
     .cardContent {
         position: absolute;
         z-index: 2;
+
         .title {
             color: $white;
             font-family: system-ui;
@@ -63,8 +65,9 @@ margin-bottom: 60px;
             font-weight: 500;
             line-height: 20px;
             border: none;
+
             /* 142.857% */
-            svg{
+            svg {
                 margin-left: 2.71px;
             }
         }

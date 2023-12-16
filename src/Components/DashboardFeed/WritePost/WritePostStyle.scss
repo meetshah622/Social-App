@@ -1,0 +1,80 @@
+@import '../../../Config/variablestyle.scss';
+
+.writePostWrapper {
+    width: 100%;
+    height: 236px;
+    border-radius: 12px;
+    background: $white;
+    margin-top: 30px;
+    padding: 30px;
+
+    .ant-space {
+        height: 100%;
+        width: 100%;
+        .ant-space-item {
+            height: 100%;
+            width: 100%;
+            .post-content-action {
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+
+                .postContent {
+                    width: 100%;
+                }
+
+                .list-item-avatar {
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 12px;
+                }
+
+                textarea {
+                    border: none;
+                    margin-left: 10px;
+                }
+
+                .sharePostBtn {
+                    width: 121px;
+                    height: 58px;
+                    background-color: $blue-69;
+                    color: $white;
+                    float: right;
+                }
+
+                .action-item-avatar {
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 12px;
+                    background: $offWhite;
+                    border: none;
+                    padding: 0;
+
+                    span {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: auto;
+                    }
+
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        flex-shrink: 0;
+                    }
+                }
+
+                .postActionWrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                }
+            }
+        }
+
+    }
+
+}
