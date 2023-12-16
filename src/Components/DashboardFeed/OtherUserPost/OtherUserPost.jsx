@@ -1,7 +1,7 @@
 import React from "react";
 import "./OtherUserPostStyle.scss";
 import { Avatar, Col, Row, Space } from "antd";
-import iconSrc from "../../../assets/Images/friends-avatar-2.png";
+import iconSrc from "../../../assets/Images/friends-Avatar-img-2.png";
 import MenuIcon from "../../../Icons/Menu-Icon";
 import postImg1 from "../../../assets/Images/post-img-1.png";
 import postImg2 from "../../../assets/Images/post-img-2.png";

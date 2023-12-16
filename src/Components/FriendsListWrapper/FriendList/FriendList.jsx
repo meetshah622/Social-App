@@ -4,8 +4,6 @@ import "./FriendListStyle.scss";
 import { Button, Card, Col, Row } from "antd";
 import FriendListCard from "../FriendListCard/FriendListCard";
 import FriendsAvatar1 from "../../../assets/Images/friends-Avatar-1.png";
-import FriendsAvatar2 from "../../../assets/Images/friends-Avatar-2.png";
-import FriendsAvatar3 from "../../../assets/Images/friends-Avatar-3.png";
 import FilterIcon from "../../../Icons/FilterIcon";
 function FriendList() {
   return (

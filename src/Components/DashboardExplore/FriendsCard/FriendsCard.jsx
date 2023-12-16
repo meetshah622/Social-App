@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "antd";
 import FriendsAvatar1 from "../../../assets/Images/friends-Avatar-1.png";
-import FriendsAvatar2 from "../../../assets/Images/friends-Avatar-2.png";
+import FriendsAvatar2 from "../../../assets/Images/friends-Avatar-img-2.png";
 import FriendsAvatar3 from "../../../assets/Images/friends-Avatar-3.png";
 
 import RightArrowIcon from "../../../Icons/RightArrowIcon";
